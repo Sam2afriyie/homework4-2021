@@ -91,19 +91,23 @@ border-right: 2px black;
 }
 /*Req 6d*/
 tr:nth-child(odd) {
-  opacity: 0.5;
+  background: transparent;
 }
 /*Req 6e*/
 tr:nth-child(even) {
-  background-color: #D1D1D1;
+  background: #D1D1D1;
 }
 /*Req 6f*/
 table tr:hover {
-  background-color: rgb(126, 8, 32, .5);
+  background-color: rgb(126, 8, 32,.5);
 }
 /*Req 7*/
-*:focus {
+table {
+  text-align: center;
+  margin: 0 auto;
   border: 2px solid #000000;
+  border-radius: 10px;
+  border-collapse: separate;
 }
 
 thead tr:first-child th:first-child{
@@ -136,3 +140,5 @@ footer{
   right: 0%;
   left: 0%;
 }
+
+
