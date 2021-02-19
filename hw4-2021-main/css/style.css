@@ -50,7 +50,7 @@ p{
   /*Req 3*/
 }
 
-a:link {
+a {
   font-size: 16px;
   color: #c12258;
   text-decoration-style: wavy;
@@ -60,7 +60,7 @@ a:link {
 
 /*Req 5*/
 /*Add selector and rule here*/
-input:focus|* {
+*:focus {
   border: 3px;
   border-style: dashed;
   border-color: #417243;
@@ -98,18 +98,29 @@ tr:nth-child(even) {
   background-color: #D1D1D1;
 }
 /*Req 6f*/
-tr:hover {
+table tr:hover {
   background-color: rgb(126, 8, 32), .5;
 }
 /*Req 7*/
-table{
-    border: 2px solid #000000;
+*:focus {
+  border: 2px solid #000000;
 }
 
 thead tr:first-child th:first-child{
-
+  border-top-left-radius: 10px;
 }
 
+thead tr:first-child th:first-child{
+  border-top-right-radius: 10px;
+}
+
+thead tr:first-child th:first-child{
+  border-bottom-left-radius: 10px;
+}
+
+thead tr:first-child th:first-child{
+  border-bottom-right-radius: 10px;
+}
 /*Add selectors and rules here*/
 
 
@@ -125,4 +136,3 @@ footer{
   right: 0%;
   left: 0%;
 }
-
