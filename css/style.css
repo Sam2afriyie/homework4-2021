@@ -76,9 +76,9 @@ td{
 
 /*Req 6b*/
 .colhead{
-  width: 125px;
+  min-width: 125px;
   text-align: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
   vertical-align: center;
   background-color: #7e0820;
   padding: 10px;
@@ -86,8 +86,8 @@ td{
 }
 /*Req 6c*/
 .rowhead{
-border-left: 2px black;
-border-right: 2px black;
+border-left: 2px solid black;
+border-right: 2px solid black;
 }
 /*Req 6d*/
 tr:nth-child(odd) {
@@ -95,7 +95,7 @@ tr:nth-child(odd) {
 }
 /*Req 6e*/
 tr:nth-child(even) {
-  background: #D1D1D1;
+  background-color: #D1D1D1;
 }
 /*Req 6f*/
 table tr:hover {
@@ -136,9 +136,10 @@ footer{
   color: #FFFFFF;
   min-height: 75px;
   position: fixed;
-  bottom: 0%;
-  right: 0%;
-  left: 0%;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
 }
-
-
+footer > p{
+  color: white;
+}
