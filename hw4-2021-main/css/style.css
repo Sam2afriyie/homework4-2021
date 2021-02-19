@@ -99,7 +99,7 @@ tr:nth-child(even) {
 }
 /*Req 6f*/
 table tr:hover {
-  background-color: rgb(126, 8, 32), .5;
+  background-color: rgb(126, 8, 32, .5);
 }
 /*Req 7*/
 *:focus {
